@@ -1,0 +1,43 @@
+{
+  "name": "hack",
+  "version": "0.1.0",
+  "homepage": "https://maximys963.github.io/pasika",
+  "private": true,
+  "dependencies": {
+    "@atlaskit/css-reset": "^3.0.1",
+    "animated": "^0.2.2",
+    "antd": "^3.9.3",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.9.1",
+    "css-loader": "^1.0.0",
+    "highcharts": "^6.1.3",
+    "less-loader": "^4.1.0",
+    "primeicons": "^1.0.0-beta.3",
+    "primereact": "^2.0.0-beta.8",
+    "react": "^16.4.2",
+    "react-app-rewire-less": "^2.1.3",
+    "react-app-rewired": "^1.6.2",
+    "react-chartkick": "^0.3.0",
+    "react-dom": "^16.4.2",
+    "react-prime": "^1.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-transition-group": "^2.4.0",
+    "react-vis": "^1.11.2",
+    "request": "^2.88.0",
+    "reqwest": "^2.0.5",
+    "styled-components": "^3.4.9"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
